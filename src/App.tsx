@@ -1,12 +1,15 @@
 import React from 'react';
+
 import './App.css';
 
-function App() {
+import Button from '@mui/material/Button';
+
+const App: React.FC = () => {
   return (
     <div className="App">
-      <p>Hello</p>
+      <Button variant="contained">Hello World</Button>
     </div>
   );
-}
+};
 
 export default App;
